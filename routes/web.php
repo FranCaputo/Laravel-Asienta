@@ -11,7 +11,21 @@
 |
 */
 
-Route::get("/home", "MainController@principal");
+//Páginas estáticas
+
+Route::get("/experiencias", "MainController@aExp");
+
+Route::get("/nuestraHistoria", "MainController@aNH");
+
+Route::get("/comoRealizarCompra", "MainController@aCRP");
+
+Route::get("/preguntasFrecuentes", "MainController@aPF");
+
+Route::get("/contacto", "MainController@aContacto");
+
+Route::get("/nosotros", "MainController@aNosotros");
+
+Route::get("/home", "MainController@aHome");
 
 Route::get('/', function () {
     return view('welcome');

@@ -14,9 +14,9 @@
 <body>
 <header>
 <script src="https://use.fontawesome.com/c276b8a2b3.js"></script>
-<div class="nav-sesion text-right" style="padding-right:   15px;">
+<div class="nav-sesion text-right" style="padding-right: 15px;">
 </div>
-<nav class="navbar navbar-default navbar-static-top" >
+<nav class="navbar navbar-default navbar-static-top">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -26,20 +26,19 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand text-light" href="index.php"><img class="logo-nav" src="images/logo.png"></a>
+      <a class="navbar-brand text-light" href="/home  "><img class="logo-nav" src="images/logo.png"></a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-left">
-        <li class=""><a href="construccion.php">Productos<span class="sr-only">(current)</span></a></li>
         <li class="dropdown">
           <a href="construccion.php" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Nosotros <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="construccion.php">Nuestra Historia</a></li>
-            <li><a href="construccion.php">Experiencias</a></li>
-            <li><a href="preguntas-frecuentes.php">Preguntas frecuentes</a></li>
-            <li><a href="construccion.php">¿Cómo realizar una compra?</a></li>
+            <li><a href="/nuestraHistoria">Nuestra Historia</a></li>
+            <li><a href="/experiencias">Experiencias</a></li>
+            <li><a href="/preguntasFrecuentes">Preguntas frecuentes</a></li>
+            <li><a href="/comoRealizarCompra">¿Cómo realizar una compra?</a></li>
             <li role="separator" class="divider"></li>
           </ul>
         </li>
@@ -64,7 +63,7 @@
         <ul>
           <form class="navbar-form navbar-right">
         <div class="form-group">
-          <input type="text" class="form-control" placeholder="Busqueda">
+          <input type="text" class="form-control" placeholder="Búsqueda">
         </div>
         <button type="submit" class="btn btn-default"><i class="fa fa-search" aria-hidden="true"></i></button>
       </form>
@@ -86,25 +85,17 @@
 <footer>
           <div class="container">
             <div class="row">
-               <div class="p-4 col-md-3">
-                  <h4 class="mb-4 text-white">ASIENTA</h4>
-                  <p class="text-white">Siempre estamos para vos</p>
-               </div>
-               <div class="p-4 col-md-3">
+               <div class="p-4 col-md-4">
                   <h4 class="mb-4 text-white">Sitio</h4>
                   <ul class="list-unstyled">
                      <a href="index.php" class="text-white"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>Home</a>
                      <br>
                      <a href="#" class="text-white">Nosotros</a>
                      <br>
-                     <a href="#" class="text-white">Nuestros Servicios</a>
-                     <br>
-                     <a href="#" class="text-white">Historias</a>
-                     <br>
                      <a href="preguntas-frecuentes.php" class="text-white">Preguntas fecuentes</a>
                   </ul>
                </div>
-               <div class="p-4 col-md-3">
+               <div class="p-4 col-md-4">
                   <h4 class="mb-4">Contacto</h4>
                   <p>
                      <a href="tel:+246 - 542 550 5462" class="text-white"><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>+549xxxxxxxxxx</a>
@@ -116,7 +107,7 @@
                      <a href="https://goo.gl/maps/AUq7b9W7yYJ2" class="text-white" target="blank"><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>Alguna direccion</a>
                   </p>
                </div>
-               <div class="p-4 col-md-3">
+               <div class="p-4 col-md-4">
                   <h4 class="mb-4 text-light">Suscribite</h4>
                   <form>
                      <fieldset class="form-group text-white"> <label for="exampleInputEmail1">A nuestro newsletter</label>
@@ -129,6 +120,7 @@
           </div>
           <h6 style="color: grey; margin-top: 30px;">Copyright &copy; 2017 {Asienta}</h6>
       </footer>
-      
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 </html>
