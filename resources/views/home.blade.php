@@ -47,34 +47,34 @@
   </div>  
 </div>
 <div class="container">
-  <div class="row">
+  <div class="row" id="categoria-imagen">
     <div class="col-sm-6 col-md-4">
-      <div class="thumbnail">
+      <div class="thumbnail prd-img">
         <img src="images/categoria_dormitorio.jpg" alt="...">
         
       </div><!-- /thumbnail-->
     </div><!-- /col-sm-6 col-md-4 -->
      <div class="col-sm-6 col-md-4">
-      <div class="thumbnail">
+      <div class="thumbnail prd-img">
         <img src="images/categoria_living.jpg" alt="...">
         
       </div><!-- /thumbnail-->
     </div><!-- /col-sm-6 col-md-4 -->
     <div class="col-sm-6 col-md-4">
-      <div class="thumbnail">
+      <div class="thumbnail prd-img">
         <img src="images/categoria_comedor.jpg" alt="...">
         
       </div><!-- /thumbnail-->
     </div><!-- /col-sm-6 col-md-4 -->
   </div><!-- /row -->
-  <div class="jumbotron" style="background-color: white; text-align: center;">
-    <h4>Productos destacados</h4>
+  <div class="row">
+    <h4 id="productosDestacados">Productos destacados</h4>
   </div>
 </div>  
 <div class="container">
   <div class="row">
-  <div class="col-sm-6 col-md-3">
-    <div class="thumbnail">
+  <div class="col-sm-6 col-md-3 img-prod">
+    <div class="thumbnail"">
       <img src="images/producto1.jpg" alt="...">
       <div class="caption">
         <h4>Banco madera jardín</h4>
@@ -84,8 +84,8 @@
       </div>
     </div>
   </div><!-- /col-sm-6 col-md-4 -->
-  <div class="col-sm-6 col-md-3">
-    <div class="thumbnail">
+  <div class="col-sm-6 col-md-3 img-prod">
+    <div class="thumbnail"">
       <img src="images/producto2.jpg" alt="...">
       <div class="caption">
         <h4>Banco madera jardín</h4>
@@ -95,8 +95,8 @@
       </div>
     </div>
   </div><!-- /col-sm-6 col-md-4 -->
-  <div class="col-sm-6 col-md-3">
-    <div class="thumbnail">
+  <div class="col-sm-6 col-md-3 img-prod">
+    <div class="thumbnail"">
       <img src="images/producto3.jpg" alt="...">
       <div class="caption">
         <h4>Banco madera jardín</h4>
@@ -106,8 +106,8 @@
       </div>
     </div>
   </div><!-- /col-sm-6 col-md-4 -->
-  <div class="col-sm-6 col-md-3">
-    <div class="thumbnail">
+  <div class="col-sm-6 col-md-3 img-prod">
+    <div class="thumbnail"">
       <img src="images/producto1.jpg" alt="...">
       <div class="caption">
         <h4>Banco madera jardín</h4>
