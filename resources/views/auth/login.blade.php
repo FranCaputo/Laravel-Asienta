@@ -3,9 +3,9 @@
 @section('principal')
 <div class="container">
     <div class="row">
-        <div class="col-md-8 col-md-offset-2">
-            <div class="panel panel-default" style="background-color: #76685d;">
-                <div class="panel-heading">Login</div>
+        <div class="col-md-4 col-md-offset-4">
+            <div class="panel panel-default" style="background-color: #967760; padding: 30px; margin-top: 90px; margin-bottom: 65px;">
+                <label style="text-align: center;"><h3>Iniciar Sesión</h3></label>
 
                 <div class="panel-body">
                     <form class="form-horizontal" method="POST" action="{{ route('login') }}">
@@ -55,7 +55,7 @@
                                     Login
                                 </button>
 
-                                <a class="btn btn-link" href="{{ route('password.request') }}">
+                                <a class="btn btn-link" href="{{ route('password.request') }}" style="color: #e7e7e7">
                                     Forgot Your Password?
                                 </a>
                             </div>
@@ -66,4 +66,6 @@
         </div>
     </div>
 </div>
+<br><br><br><br><br><br><br>
 @endsection
+
