@@ -18,3 +18,8 @@
     max-height: 200px;
     opacity: 1;
 }
+
+.wrapper{
+    width: 1400px;
+    margin: 0 auto;
+}
