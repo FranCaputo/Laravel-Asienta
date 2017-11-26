@@ -44,20 +44,20 @@
 <div class="container">
   <div class="row" id="categoria-imagen">
     <div class="col-sm-6 col-md-4">
-      <div class="thumbnail prd-img">
-        <img src="images/categoria_dormitorio.jpg" alt="...">
+      <div class="thumbnail prd-img grow img">
+        <a href="/asienta"><img src="images/categoria_dormitorio.jpg" alt="..."></a>
         
       </div>
     </div>
      <div class="col-sm-6 col-md-4">
-      <div class="thumbnail prd-img">
-        <img src="images/categoria_living.jpg" alt="...">
+      <div class="thumbnail prd-img grow img">
+        <a href="/asienta"><img src="images/categoria_living.jpg" alt="..."></a>
         
       </div>
     </div>
     <div class="col-sm-6 col-md-4">
-      <div class="thumbnail prd-img">
-        <img src="images/categoria_comedor.jpg" alt="...">
+      <div class="thumbnail prd-img grow img">
+        <a href="/asienta"><img src="images/categoria_comedor.jpg" alt="..."></a>
         
       </div>
     </div>
