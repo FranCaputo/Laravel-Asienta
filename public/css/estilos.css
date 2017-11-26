@@ -5,8 +5,17 @@
 /*Para todo el body*/
 body {
   font-family: 'Raleway', sans-serif;
+  background-image: url('../images/background.png');
+  height: 100%; 
+  background-attachment: fixed;
 }
+
+.wrapper{
+  background-color: white;
+}
+
   /*Inicio y registro top right*/
+
 
 .nav-sesion a {
   color: white;
