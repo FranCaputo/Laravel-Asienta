@@ -1,121 +1,24 @@
-@extends("masterPage")
-@section("principal")
+@extends('layouts.app')
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+@section('content')
 <div class="container">
-  <div class="row hidden-xs hidden-sm">
-      <div id="my-slider" class="carousel slide" data-ride="carousel">
-        
-        <!-- indicadores dot nav -->
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+            <div class="panel panel-default">
+                <div class="panel-heading">Dashboard</div>
 
-        <ol class="carousel-indicators">
-            <li data-target="#my-slider" data-slide-to="0" class="active"></li>
-            <li data-target="#my-slider" data-slide-to="1"></li>
-            <li data-target="#my-slider" data-slide-to="2"></li>
-        </ol>
+                <div class="panel-body">
+                    @if (session('status'))
+                        <div class="alert alert-success">
+                            {{ session('status') }}
+                        </div>
+                    @endif
 
-        <!-- wrapper para los slides -->
-        <div class="carousel-inner" role="listbox">
-          <div class="item active">
-              <img src="images/SLIDE5.jpg" alt="algo" class="img-responsive">
-              <div class="carousel-caption">
-                <h2></h2>
-              </div>
-          </div>
-          <div class="item">
-              <img src="images/SLIDE3.jpg" alt="algo" class="img-responsive">
-              <div class="carousel-caption">
-                <h2></h2>
-              </div>
-          </div>
-          <div class="item">
-              <img src="images/SLIDE4.jpg" alt="algo" class="img-responsive">
-              <div class="carousel-caption">
-                <h2></h2>
-              </div>
-          </div>
+                    You are logged in!
+                </div>
+            </div>
         </div>
-
-        <!-- controles next y prev -->
-
-        <a class="left carousel-control" href="#my-slider" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-        </a>
-        <a class="right carousel-control" href="#my-slider" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-        </a>
-
-      </div>
-  </div>  
-</div>
-<div class="container">
-  <div class="row" id="categoria-imagen">
-    <div class="col-sm-6 col-md-4">
-      <div class="thumbnail prd-img">
-        <img src="images/categoria_dormitorio.jpg" alt="...">
-        
-      </div><!-- /thumbnail-->
-    </div><!-- /col-sm-6 col-md-4 -->
-     <div class="col-sm-6 col-md-4">
-      <div class="thumbnail prd-img">
-        <img src="images/categoria_living.jpg" alt="...">
-        
-      </div><!-- /thumbnail-->
-    </div><!-- /col-sm-6 col-md-4 -->
-    <div class="col-sm-6 col-md-4">
-      <div class="thumbnail prd-img">
-        <img src="images/categoria_comedor.jpg" alt="...">
-        
-      </div><!-- /thumbnail-->
-    </div><!-- /col-sm-6 col-md-4 -->
-  </div><!-- /row -->
-  <div class="row">
-    <h4 id="productosDestacados">Productos destacados</h4>
-  </div>
-</div>  
-<div class="container">
-  <div class="row">
-  <div class="col-sm-6 col-md-3 img-prod">
-    <div class="thumbnail"">
-      <img src="images/producto1.jpg" alt="...">
-      <div class="caption">
-        <h4>Banco madera jardín</h4>
-        <p>Producto 123</p>
-        <h5>$3.500</h5>
-        <p><a href="#" class="btn btn-danger" role="button">Agregar a carrito</a> <a href="#" class="btn btn-default" role="button">Comprar</a></p>
-      </div>
     </div>
-  </div><!-- /col-sm-6 col-md-4 -->
-  <div class="col-sm-6 col-md-3 img-prod">
-    <div class="thumbnail"">
-      <img src="images/producto2.jpg" alt="...">
-      <div class="caption">
-        <h4>Banco madera jardín</h4>
-        <p>Producto 123</p>
-        <h5>$3.500</h5>
-        <p><a href="#" class="btn btn-danger" role="button">Agregar a carrito</a> <a href="#" class="btn btn-default" role="button">Comprar</a></p>
-      </div>
-    </div>
-  </div><!-- /col-sm-6 col-md-4 -->
-  <div class="col-sm-6 col-md-3 img-prod">
-    <div class="thumbnail"">
-      <img src="images/producto3.jpg" alt="...">
-      <div class="caption">
-        <h4>Banco madera jardín</h4>
-        <p>Producto 123</p>
-        <h5>$3.500</h5>
-        <p><a href="#" class="btn btn-danger" role="button">Agregar a carrito</a> <a href="#" class="btn btn-default" role="button">Comprar</a></p>
-      </div>
-    </div>
-  </div><!-- /col-sm-6 col-md-4 -->
-  <div class="col-sm-6 col-md-3 img-prod">
-    <div class="thumbnail"">
-      <img src="images/producto1.jpg" alt="...">
-      <div class="caption">
-        <h4>Banco madera jardín</h4>
-        <p>Producto 123</p>
-        <h5>$3.500</h5>
-        <p><a href="#" class="btn btn-danger" role="button">Agregar a carrito</a> <a href="#" class="btn btn-default" role="button">Comprar</a></p>
-      </div>
-    </div>
-  </div><!-- /col-sm-6 col-md-4 -->
 </div>
 @endsection

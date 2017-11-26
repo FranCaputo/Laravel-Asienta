@@ -14,12 +14,11 @@
       <header>
          <script src="https://use.fontawesome.com/c276b8a2b3.js"></script>
          <div class="nav-sesion text-right" style="padding-right: 15px;">
-            <a href="registracion.php">Registracion</a>
-            <a href="inicio-sesion.php">Login</a>
+            <a href="register">Registracion</a>
+            <a href="login">Login</a>
          </div>
          <nav class="navbar navbar-default navbar-static-top">
             <div class="container-fluid">
-               <!-- Brand and toggle get grouped for better mobile display -->
                <div class="navbar-header">
                   <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                   <span class="sr-only">Toggle navigation</span>
@@ -27,9 +26,8 @@
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>
                   </button>
-                  <a class="navbar-brand text-light" href="/home  "><img class="logo-nav" src="images/logo.png"></a>
+                  <a class="navbar-brand text-light" href="/asienta"><img class="logo-nav" src="images/logo.png"></a>
                </div>
-               <!-- Collect the nav links, forms, and other content for toggling -->
                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                   <ul class="nav navbar-nav navbar-left">
                      <li class="dropdown">
@@ -47,16 +45,16 @@
                      <li class="dropdown">
                         <a href="construccion.php" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Categorias <span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                           <li><a href="construccion.php">Exteriores</a></li>
-                           <li><a href="construccion.php">Living</a></li>
-                           <li><a href="construccion.php">Comedor</a></li>
-                           <li><a href="construccion.php">Dormitorio</a></li>
-                           <li><a href="construccion.php">Accesorio</a></li>
+                           <li><a href="/exteriores">Exteriores</a></li>
+                           <li><a href="/living">Living</a></li>
+                           <li><a href="/comedor">Comedor</a></li>
+                           <li><a href="/dormitorio">Dormitorio</a></li>
+                           <li><a href="/accesorio">Accesorio</a></li>
                         </ul>
                      </li>
                   </ul>
                   <ul class="nav navbar-nav navbar-left">
-                     <li><a href="contacto.php">Contacto</a></li>
+                     <li><a href="/contacto">Contacto</a></li>
                   </ul>
                   <ul>
                      <form class="navbar-form navbar-right">
@@ -67,9 +65,7 @@
                      </form>
                   </ul>
                </div>
-               <!-- /.navbar-collapse -->
             </div>
-            <!-- /.container-fluid -->
          </nav>
       </header>
       <div>
@@ -85,7 +81,7 @@
                      <br>
                      <a href="#" class="text-white">Nosotros</a>
                      <br>
-                     <a href="preguntas-frecuentes.php" class="text-white">Preguntas fecuentes</a>
+                     <a href="/preguntasFrecuentes" class="text-white">Preguntas fecuentes</a>
                   </ul>
                </div>
                <div class="p-4 col-md-4">
@@ -97,14 +93,14 @@
                      <a href="mailto:info@pingendo.com" class="text-white"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>info@asienta.com</a>
                   </p>
                   <p>
-                     <a href="https://goo.gl/maps/AUq7b9W7yYJ2" class="text-white" target="blank"><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>Alguna direccion</a>
+                     <a href="https://goo.gl/maps/AUq7b9W7yYJ2" class="text-white" target="blank"><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>Alguna dirección</a>
                   </p>
                </div>
                <div class="p-4 col-md-4">
                   <h4 class="mb-4 text-light">Suscribite</h4>
                   <form>
                      <fieldset class="form-group text-white"> <label for="exampleInputEmail1">A nuestro newsletter</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email"> 
+                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email"> 
                      </fieldset>
                      <button type="submit" class="btn btn-outline-light">Enviar</button>
                   </form>

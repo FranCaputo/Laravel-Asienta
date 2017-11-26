@@ -11,8 +11,22 @@
 |
 */
 
+
+
 //Páginas estáticas
 
+	//Categorías
+Route::get("/accesorio", "MainController@aExp");
+
+Route::get("/dormitorio", "MainController@aExp");
+
+Route::get("/comedor", "MainController@aExp");
+
+Route::get("/living", "MainController@aExp");
+
+Route::get("/exteriores", "MainController@aExp");
+
+	//Nosotros
 Route::get("/experiencias", "MainController@aExp");
 
 Route::get("/nuestraHistoria", "MainController@aNH");
@@ -21,12 +35,20 @@ Route::get("/comoRealizarCompra", "MainController@aCRP");
 
 Route::get("/preguntasFrecuentes", "MainController@aPF");
 
+
+
 Route::get("/contacto", "MainController@aContacto");
 
-Route::get("/nosotros", "MainController@aNosotros");
-
-Route::get("/home", "MainController@aHome");
+Route::get("/asienta", "MainController@aAsienta");
 
 Route::get('/', function () {
     return view('welcome');
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

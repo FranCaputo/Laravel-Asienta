@@ -6,10 +6,15 @@ use Illuminate\Http\Request;
 
 class MainController extends Controller
 {
-    public function aHome(){
-    	return view("home");
+    public function aAsienta(){
+    	return view("asienta");
     }
 
+    public function aContacto(){
+        return view("contacto");
+    }
+
+    //Nosotros
     public function aExp(){
     	return view("experiencias");
     }
@@ -24,6 +29,27 @@ class MainController extends Controller
 
     public function aPF(){
     	return view("preguntasFrecuentes");
+    }
+
+    //Categorías
+    public function aAcces(){
+        return view("accesorio");
+    }
+
+    public function aDorm(){
+        return view("dormitorio");
+    }
+
+    public function aComdeor(){
+        return view("comedor");
+    }
+
+    public function aLiving(){
+        return view("living");
+    }
+
+    public function aExt(){
+        return view("exteriores");
     }
 
 }
