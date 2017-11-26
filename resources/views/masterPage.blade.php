@@ -5,6 +5,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
       <link rel="stylesheet" type="text/css" href="css/estilos.css">
+      <link rel="stylesheet" type="text/css" href="css/animaciones.css">
       <title>Asienta</title>
       <link rel="icon" 
          type="image/png" 
@@ -14,7 +15,7 @@
       <header>
          <script src="https://use.fontawesome.com/c276b8a2b3.js"></script>
          <div class="nav-sesion text-right" style="padding-right: 15px;">
-            <a href="register">Registracion</a>
+            <a href="register">Registración</a>
             <a href="login">Login</a>
          </div>
          <nav class="navbar navbar-default navbar-static-top">
