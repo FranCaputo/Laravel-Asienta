@@ -16,8 +16,16 @@
       <header>
          <script src="https://use.fontawesome.com/c276b8a2b3.js"></script>
          <div class="nav-sesion text-right" style="padding-right: 15px;">
-            <a href="register">Registración</a>
-            <a href="login">Login</a>
+            @if(session('usuario'))
+               Hola <a href="perfil">{{session('usuario')->name}}</a>
+               <form method="POST" action="{{ route('logout') }}">
+                  <input type="submit" name="logout" value="Logout" style="background-color: #967760; border-color: #333;">
+               </form>
+            @endif 
+            @if(!session('usuario'))
+               <a href="register">Registración</a>
+               <a href="login">Login</a>
+            @endif
          </div>
          <nav class="navbar navbar-default navbar-static-top">
             <div class="container-fluid">

@@ -41,6 +41,8 @@ Route::get("/contacto", "MainController@aContacto");
 
 Route::get("/asienta", "MainController@aAsienta");
 
+Route::get("/master", "MainController@aMaster");
+
 Route::get('/', function () {
     return view('welcome');
 });

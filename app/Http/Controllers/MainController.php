@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Auth;
+use App\User;
 
 class MainController extends Controller
 {
@@ -50,6 +52,10 @@ class MainController extends Controller
 
     public function aExt(){
         return view("exteriores");
+    }
+
+    public function aMaster(){
+        return view("masterPage");
     }
 
 }
